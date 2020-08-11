@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<link href="sheets.css" type="text/css" rel="stylesheet" />
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+        <script type="text/javascript" src="scripts.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
+    </head>
+    <body>
+        <div class="introduction">
+            <h2>Does School Selectivity Affect After Graduation Success?</h2>
+        </div>
+        <div class="graphic" align="center" id="chart1" style="padding: 10px">
+        <!-- <div class="graphic" align="center" id="chart2" style="padding: 10px"></div> -->
+            <div class="container">
+                    <div class="column1" align="left" style="padding-top: 200px; padding-right: 20px; padding-bottom: 20px; padding-left: 40px">
+                        <p id= "firstslide">
+                            To understand if school selectivity (admissions rate)
+                            is a good indicator of after-graduation success, let us first look at
+                            where the total undergraduate population of the United States is dispersed.
+                        </p>
+                    </div>
+                    <div class="column1" align="left" style="padding-top: 200px; padding-right: 20px; padding-bottom: 20px; padding-left: 40px">
+                        <p id= "secondslide">
+                            Next, let us observe how selective the schools that get the “smartest”
+                            (according to SAT scores) students are.
+                        </p>
+                    </div>
+                    <div class="column1" align="left" style="padding-top: 200px; padding-right: 20px; padding-bottom: 20px; padding-left: 40px">
+                        <p id= "thirdslide">Third, we should look at the correlation between going to a
+                            selective school and completing 4 years at this school.
+                        </p>
+                    </div>
+                    <div class="column1" align="left" style="padding-top: 200px; padding-right: 20px; padding-bottom: 20px; padding-left: 40px">
+                        <p id= "fourthslide">Finally, let us see the relationship between after graduation salary
+                             and selectivity of admission.
+                        </p>
+                    </div>
+                     <div class="column1" align="left" style="padding-top: 200px; padding-right: 20px; padding-bottom: 20px; padding-left: 40px">
+                        <p id= "fifthslide">We see that school selectivity does NOT have a strong correlation to after graduation success.
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div id="chart2">
+                    </div>
+            </div>
+            <div class="fixed">
+                <svg id="viz" viewBox="0 0 950 1100"></svg>
+            </div>
+        </div>
+    </body>
+</html>
